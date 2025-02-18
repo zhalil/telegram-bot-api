@@ -1,0 +1,17 @@
+{
+    "name": "zhalil/telegram-bot-api",
+    "description": "simple telegram bot api for php 8.4+",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zhalil\\TelegramBotApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zhalil"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

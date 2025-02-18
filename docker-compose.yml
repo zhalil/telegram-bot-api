@@ -1,0 +1,11 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: sleep 100000000
+    volumes:
+      - .:/app
+      - /etc/passwd:/etc/passwd
+    ports:
+      - "80:80"
