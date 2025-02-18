@@ -17,7 +17,12 @@ class Telegram
 
     public function sendMessage()
     {
-        
+
+    }
+
+    public function getMe()
+    {
+
     }
 
 
